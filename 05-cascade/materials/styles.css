@@ -31,13 +31,68 @@ table {
 /* end reset browser styles */
 
 /* basic layout -- 2 columns */
+body {
+	width: 850px;
+	margin: 0 auto;
+	background: #fff;
+	font-family: 'Open Sans', sans-serif;
+}
+body img {
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+h1 {
+	color: #b1967c;
+	font-size: 55px;
+	font-weight: bolder;
+}
+.clearfix { clear: both; }
+.container {
+	background-color: #cde6ff;
+	padding: 0px 50px 20px;
+	margin-top: 0;
+}
 .main {
 	float: left;
-	width: 580px;
+	width: 550px;
+}
+.main h2 {
+	color: #e8a064;
+	font-size: 35px;
+	padding-left: 80px;
+	border-bottom: 2px solid #fff;
+	margin: 20px 0px 10px;
+}
+.main p {
+	color: #616161;
+	font-size: 16px;
+	padding: 0px 0px 10px 80px;
+}
+.main img {
+	width: 40px;
+	float: left;
+	margin-top: 20px;
+}
+p:first-child{
+	color: #7694cc;
+	font-size: 18px;
+	padding: 20px 0px 0px;
 }
 .sidebar {
-	margin-left: 600px;
+	float: right;
+	width: 140px;
+	/*margin-left: 600px;*/
 	padding: 15px;
+	margin-top: 20px;
 	background: #E9F5FE;
 }
-
+.sidebar h2 {
+	color: #afc3d6;
+	font-size: 30px;;
+	margin-bottom: 10px;
+}
+.sidebar p{
+	color: #b19688;
+	font-size: 14px;
+}
