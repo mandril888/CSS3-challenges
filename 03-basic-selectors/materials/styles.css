@@ -5,7 +5,7 @@ html {
 body {
 	width: 700px;
 	margin: 0 auto;
-	padding: 40px 20px 40px 120px;
+	padding: 20px;
 	background: #fff;
 	-webkit-box-shadow: 0px 0px 44px 5px rgba(0,0,0,0.75);
 	-moz-box-shadow: 0px 0px 44px 5px rgba(0,0,0,0.75);
@@ -14,13 +14,17 @@ body {
 
 img {
 	padding-bottom: 20px;
-	margin-left: -75px;
+	width: 700px;
 }
 
 h1, h2, h3 {
 	color: #bd8100;
 	border-top: 2px solid #86a100;
-	padding-top: 10px;
+	padding: 20px 0px 0px 120px;
+}
+
+p {
+	padding: 0px 0px 0px 120px;
 }
 
 .dif-paragraph {
@@ -37,7 +41,8 @@ h1, h2, h3 {
 	border: 1px dashed #bd8110;
 	background: #fbf8a9;
 	color: #333350;
-	padding: 15px 30px 15px 10px;
+	padding: 10px 15px 10px 10px;
+	margin: 0px 0px 0px 120px;
 }
 
 .atention-paragraph strong{
